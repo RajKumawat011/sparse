@@ -100,7 +100,7 @@ int main()
 			if (sparseMatric[i][j] != 0) 
 				create_new_node(&start, sparseMatric[i][j], i, j); 
 
-	
+	PrintList(start);
 
 	return 0; 
 } 
